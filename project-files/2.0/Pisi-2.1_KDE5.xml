@@ -1,6 +1,6 @@
 <PardusmanProject type="install" compression="xz">
-    <Title>Pisi Linux 2.0 RC KDE5 x86_64</Title>
-    <WorkDir>/home/ertugerata/Work_yali</WorkDir>
+    <Title>Pisi Linux 2.1 KDE5 x86_64</Title>
+    <WorkDir>/home/ertugerata/Works/repo2yali/Work_yali</WorkDir>
     <ReleaseFiles>/home/ertugerata/Works/iso-work/release-files/pisilinux/media-content</ReleaseFiles>
     <PackageCollections>
         <PackageCollection default="True">
@@ -64,7 +64,7 @@
                     <Description>Temel Sistem</Description>
                 </Translation>
             </Translations>
-            <PackageSelection repo_uri="file:///home/ertugerata/Works/repo2yali/pisi-index.xml.xz">
+            <PackageSelection repo_uri="file:///home/ertugerata/Works/Depo_saf/pisi-index.xml.xz">
                 <SelectedComponent>desktop.kde.framework</SelectedComponent>
                 <SelectedComponent>desktop.kde.plasma</SelectedComponent>
                 <SelectedComponent>desktop.toolkit.qt5</SelectedComponent>
@@ -219,6 +219,8 @@
                 <Package>alsa-tools</Package>
                 <Package>alsa-utils</Package>
                 <Package>alternatives</Package>
+                <Package>appstream</Package>
+                <Package>appstream-qt5</Package>
                 <Package>ark</Package>
                 <Package>aspell</Package>
                 <Package>at-spi2-atk</Package>
@@ -226,9 +228,11 @@
                 <Package>atk</Package>
                 <Package>attica</Package>
                 <Package>attr</Package>
+                <Package>audiofile</Package>
                 <Package>audit</Package>
                 <Package>autogen</Package>
                 <Package>avahi</Package>
+                <Package>avahi-glib</Package>
                 <Package>avahi-libs</Package>
                 <Package>b43-firmware</Package>
                 <Package>b43-fwcutter</Package>
@@ -306,7 +310,6 @@
                 <Package>ebook-tools</Package>
                 <Package>elfutils</Package>
                 <Package>enca</Package>
-                <Package>encfs</Package>
                 <Package>enchant</Package>
                 <Package>enscript</Package>
                 <Package>espeak</Package>
@@ -338,7 +341,6 @@
                 <Package>firefox-lang-uk</Package>
                 <Package>flac</Package>
                 <Package>flite</Package>
-                <Package>fltk</Package>
                 <Package>fluidsynth</Package>
                 <Package>font-util</Package>
                 <Package>fontconfig</Package>
@@ -393,7 +395,6 @@
                 <Package>glibmm</Package>
                 <Package>gmp</Package>
                 <Package>gnu-gs-fonts-std</Package>
-                <Package>gnupg</Package>
                 <Package>gnutls</Package>
                 <Package>gobject-introspection</Package>
                 <Package>gperf</Package>
@@ -405,25 +406,19 @@
                 <Package>groff</Package>
                 <Package>grub2</Package>
                 <Package>gsm</Package>
-                <Package>gst-libav-next</Package>
+                <Package>gst-libav</Package>
                 <Package>gst-plugins-bad</Package>
-                <Package>gst-plugins-bad-next</Package>
                 <Package>gst-plugins-base</Package>
-                <Package>gst-plugins-base-next</Package>
                 <Package>gst-plugins-good</Package>
-                <Package>gst-plugins-good-next</Package>
                 <Package>gst-plugins-ugly</Package>
-                <Package>gst-plugins-ugly-next</Package>
                 <Package>gstreamer</Package>
-                <Package>gstreamer-next</Package>
-                <Package>gstreamer-vaapi-next</Package>
                 <Package>gstreamermm</Package>
-                <Package>gstreamermm-next</Package>
                 <Package>gtk2</Package>
                 <Package>gtk3</Package>
                 <Package>guile</Package>
                 <Package>gutenprint</Package>
                 <Package>gwenview</Package>
+                <Package>gypsy</Package>
                 <Package>gzip</Package>
                 <Package>harfbuzz</Package>
                 <Package>hdparm</Package>
@@ -435,7 +430,6 @@
                 <Package>iconcan</Package>
                 <Package>icu4c</Package>
                 <Package>ilmbase</Package>
-                <Package>imagemagick</Package>
                 <Package>imlib2</Package>
                 <Package>iniparser</Package>
                 <Package>iproute2</Package>
@@ -444,6 +438,7 @@
                 <Package>irqbalance</Package>
                 <Package>iso-codes</Package>
                 <Package>jack-audio-connection-kit</Package>
+                <Package>jansson</Package>
                 <Package>jasper</Package>
                 <Package>jbigkit</Package>
                 <Package>json-c</Package>
@@ -595,7 +590,6 @@
                 <Package>libcanberra</Package>
                 <Package>libcap</Package>
                 <Package>libcap-ng</Package>
-                <Package>libcdaudio</Package>
                 <Package>libcddb</Package>
                 <Package>libcdio</Package>
                 <Package>libcdio-paranoia</Package>
@@ -658,11 +652,9 @@
                 <Package>libkipi</Package>
                 <Package>libkmod</Package>
                 <Package>libkms</Package>
-                <Package>libksba</Package>
                 <Package>libkscreen</Package>
                 <Package>libksysguard</Package>
                 <Package>liblogging</Package>
-                <Package>liblqr</Package>
                 <Package>libmad</Package>
                 <Package>libmatroska</Package>
                 <Package>libmbim</Package>
@@ -702,13 +694,13 @@
                 <Package>librsvg</Package>
                 <Package>libsamplerate</Package>
                 <Package>libsdl</Package>
+                <Package>libsdl2</Package>
                 <Package>libseccomp</Package>
                 <Package>libsecret</Package>
                 <Package>libshout</Package>
                 <Package>libsigc++</Package>
                 <Package>libsndfile</Package>
                 <Package>libsoup</Package>
-                <Package>libsoup-gnome</Package>
                 <Package>libspectre</Package>
                 <Package>libspiro</Package>
                 <Package>libssh</Package>
@@ -762,6 +754,7 @@
                 <Package>logrotate</Package>
                 <Package>lsb-release</Package>
                 <Package>lua</Package>
+                <Package>lua52</Package>
                 <Package>lvm2</Package>
                 <Package>lvm2-static</Package>
                 <Package>lxdm</Package>
@@ -796,6 +789,8 @@
                 <Package>mpdecimal</Package>
                 <Package>mpfr</Package>
                 <Package>mpg123</Package>
+                <Package>mplayer</Package>
+                <Package>mplayer-gui</Package>
                 <Package>mpv-player</Package>
                 <Package>mtools</Package>
                 <Package>mudur</Package>
@@ -809,7 +804,6 @@
                 <Package>networkmanager-qt</Package>
                 <Package>newt</Package>
                 <Package>noto-fonts</Package>
-                <Package>npth</Package>
                 <Package>nspr</Package>
                 <Package>nss</Package>
                 <Package>nss-mdns</Package>
@@ -822,6 +816,7 @@
                 <Package>opencore-amr</Package>
                 <Package>openexr-libs</Package>
                 <Package>openjpeg</Package>
+                <Package>openjpeg2</Package>
                 <Package>openldap-client</Package>
                 <Package>openslp</Package>
                 <Package>openssh</Package>
@@ -841,7 +836,6 @@
                 <Package>perl</Package>
                 <Package>perl-Locale-gettext</Package>
                 <Package>piksemel</Package>
-                <Package>pinentry</Package>
                 <Package>pisi</Package>
                 <Package>pisilinux-desktop-services</Package>
                 <Package>pisilinux-python</Package>
@@ -854,7 +848,6 @@
                 <Package>plasma-nm</Package>
                 <Package>plasma-pa</Package>
                 <Package>plasma-sdk</Package>
-                <Package>plasma-vault</Package>
                 <Package>plasma-workspace</Package>
                 <Package>plasma-workspace-wallpapers</Package>
                 <Package>plymouth</Package>
@@ -892,6 +885,7 @@
                 <Package>pycurl</Package>
                 <Package>pypolkit</Package>
                 <Package>python</Package>
+                <Package>python-enum34</Package>
                 <Package>python-psutil</Package>
                 <Package>python-pyliblzma</Package>
                 <Package>python-qt5</Package>
@@ -900,11 +894,16 @@
                 <Package>python-smbc</Package>
                 <Package>python3</Package>
                 <Package>python3-cairo</Package>
+                <Package>python3-chardet</Package>
                 <Package>python3-cups</Package>
+                <Package>python3-idna</Package>
                 <Package>python3-pygobject3</Package>
                 <Package>python3-qt5</Package>
                 <Package>python3-requests</Package>
+                <Package>python3-setuptools</Package>
                 <Package>python3-sip</Package>
+                <Package>python3-urllib3</Package>
+                <Package>python3-youtube_dl</Package>
                 <Package>qca2-qt5</Package>
                 <Package>qqc2-desktop-style</Package>
                 <Package>qrencode</Package>
@@ -949,11 +948,13 @@
                 <Package>qt5-websockets</Package>
                 <Package>qt5-x11extras</Package>
                 <Package>qt5-xmlpatterns</Package>
+                <Package>re2</Package>
                 <Package>readline</Package>
                 <Package>recode</Package>
                 <Package>rrdtool</Package>
                 <Package>rsyslog</Package>
                 <Package>rtmpdump</Package>
+                <Package>rubberband</Package>
                 <Package>ruby</Package>
                 <Package>run-parts</Package>
                 <Package>samba</Package>
@@ -971,6 +972,7 @@
                 <Package>smpeg</Package>
                 <Package>smtube</Package>
                 <Package>snappy</Package>
+                <Package>socat</Package>
                 <Package>solid</Package>
                 <Package>sonnet</Package>
                 <Package>soundtouch</Package>
@@ -1000,7 +1002,6 @@
                 <Package>tiff</Package>
                 <Package>time</Package>
                 <Package>timezone</Package>
-                <Package>tinyxml2</Package>
                 <Package>twolame</Package>
                 <Package>udisks2</Package>
                 <Package>unicode-ucd</Package>
@@ -1016,6 +1017,7 @@
                 <Package>uuidd</Package>
                 <Package>v4l-utils</Package>
                 <Package>v86d</Package>
+                <Package>vamp-plugin-sdk</Package>
                 <Package>vbetool</Package>
                 <Package>vcdimager</Package>
                 <Package>vdpau-video</Package>
@@ -1045,6 +1047,7 @@
                 <Package>xcb-util-keysyms</Package>
                 <Package>xcb-util-renderutil</Package>
                 <Package>xcb-util-wm</Package>
+                <Package>xcb-util-xrm</Package>
                 <Package>xdg-desktop-portal-kde</Package>
                 <Package>xdg-user-dirs</Package>
                 <Package>xdg-utils</Package>
@@ -1137,11 +1140,9 @@
         <SelectedPackage>squashfs-tools</SelectedPackage>
         <SelectedPackage>xdm</SelectedPackage>
         <SelectedPackage>xkeyboard-config</SelectedPackage>
+        <SelectedPackage>xorg-server-common</SelectedPackage>
         <SelectedPackage>zorg</SelectedPackage>
-        <Package>ConsoleKit</Package>
         <Package>DirectFB</Package>
-        <Package>ModemManager</Package>
-        <Package>NetworkManager</Package>
         <Package>aalib</Package>
         <Package>acl</Package>
         <Package>alsa-firmware</Package>
@@ -1151,8 +1152,10 @@
         <Package>at-spi2-core</Package>
         <Package>atk</Package>
         <Package>attr</Package>
+        <Package>audiofile</Package>
         <Package>autogen</Package>
         <Package>avahi</Package>
+        <Package>avahi-glib</Package>
         <Package>avahi-libs</Package>
         <Package>b43-firmware</Package>
         <Package>b43-fwcutter</Package>
@@ -1169,7 +1172,6 @@
         <Package>cairo</Package>
         <Package>cdparanoia</Package>
         <Package>celt</Package>
-        <Package>cgmanager</Package>
         <Package>comar</Package>
         <Package>comar-api</Package>
         <Package>coreutils</Package>
@@ -1177,6 +1179,7 @@
         <Package>cracklib</Package>
         <Package>cups</Package>
         <Package>curl</Package>
+        <Package>cyrus-sasl</Package>
         <Package>db</Package>
         <Package>dbus</Package>
         <Package>dbus-c++</Package>
@@ -1214,6 +1217,7 @@
         <Package>fuse</Package>
         <Package>gawk</Package>
         <Package>gc</Package>
+        <Package>gconf</Package>
         <Package>gdbm</Package>
         <Package>gdk-pixbuf</Package>
         <Package>geoclue</Package>
@@ -1248,31 +1252,30 @@
         <Package>groff</Package>
         <Package>grub2</Package>
         <Package>gsm</Package>
-        <Package>gst-plugins-bad-next</Package>
+        <Package>gst-plugins-bad</Package>
         <Package>gst-plugins-base</Package>
-        <Package>gst-plugins-base-next</Package>
         <Package>gstreamer</Package>
-        <Package>gstreamer-next</Package>
         <Package>gtk2</Package>
         <Package>gtk3</Package>
         <Package>guile</Package>
+        <Package>gypsy</Package>
         <Package>gzip</Package>
         <Package>harfbuzz</Package>
         <Package>help2man</Package>
         <Package>icon-theme-adwaita</Package>
         <Package>icu4c</Package>
-        <Package>iproute2</Package>
-        <Package>iptables</Package>
         <Package>jack-audio-connection-kit</Package>
         <Package>jasper</Package>
         <Package>jbigkit</Package>
         <Package>json-c</Package>
+        <Package>json-glib</Package>
         <Package>kbd</Package>
         <Package>kernel</Package>
         <Package>keyutils</Package>
         <Package>kmod</Package>
         <Package>l-smash</Package>
         <Package>lame</Package>
+        <Package>lcms2</Package>
         <Package>less</Package>
         <Package>leveldb</Package>
         <Package>libFS</Package>
@@ -1303,7 +1306,6 @@
         <Package>libXvMC</Package>
         <Package>libXxf86dga</Package>
         <Package>libXxf86misc</Package>
-        <Package>libXxf86miscproto</Package>
         <Package>libXxf86vm</Package>
         <Package>libass</Package>
         <Package>libasyncns</Package>
@@ -1352,31 +1354,25 @@
         <Package>libkmod</Package>
         <Package>libkms</Package>
         <Package>liblogging</Package>
-        <Package>libmbim</Package>
-        <Package>libmm-glib</Package>
         <Package>libmodplug</Package>
         <Package>libmp4v2</Package>
         <Package>libmtdev</Package>
-        <Package>libndp</Package>
-        <Package>libnfnetlink</Package>
-        <Package>libnih</Package>
-        <Package>libnl</Package>
+        <Package>libnotify</Package>
         <Package>libnut</Package>
         <Package>libogg</Package>
         <Package>libomxil-bellagio</Package>
         <Package>libopus</Package>
         <Package>libpaper</Package>
-        <Package>libpcap</Package>
         <Package>libpciaccess</Package>
         <Package>libpcre</Package>
         <Package>libpipeline</Package>
         <Package>libpng</Package>
         <Package>libproxy</Package>
-        <Package>libqmi</Package>
         <Package>libquadmath</Package>
         <Package>libraw1394</Package>
         <Package>libsamplerate</Package>
         <Package>libsdl</Package>
+        <Package>libsdl2</Package>
         <Package>libsigc++</Package>
         <Package>libsndfile</Package>
         <Package>libsoup</Package>
@@ -1430,7 +1426,6 @@
         <Package>mit-kerberos</Package>
         <Package>mjpegtools</Package>
         <Package>mkinitramfs</Package>
-        <Package>mobile-broadband-provider-info</Package>
         <Package>module-virtualbox</Package>
         <Package>module-virtualbox-guest</Package>
         <Package>module-virtualbox-guest-userspace</Package>
@@ -1443,7 +1438,6 @@
         <Package>ncurses</Package>
         <Package>net-tools</Package>
         <Package>nettle</Package>
-        <Package>newt</Package>
         <Package>nspr</Package>
         <Package>nss</Package>
         <Package>nss-mdns</Package>
@@ -1451,7 +1445,8 @@
         <Package>ntfsprogs</Package>
         <Package>openal</Package>
         <Package>opencore-amr</Package>
-        <Package>openjpeg</Package>
+        <Package>openjpeg2</Package>
+        <Package>openldap-client</Package>
         <Package>openssl</Package>
         <Package>orc</Package>
         <Package>os-prober</Package>
@@ -1475,7 +1470,6 @@
         <Package>plyvel</Package>
         <Package>polkit</Package>
         <Package>popt</Package>
-        <Package>ppp</Package>
         <Package>procps</Package>
         <Package>protobuf</Package>
         <Package>psmisc</Package>
@@ -1487,6 +1481,7 @@
         <Package>python</Package>
         <Package>python-argparse</Package>
         <Package>python-decorator</Package>
+        <Package>python-enum34</Package>
         <Package>python-psutil</Package>
         <Package>python-pyaspects</Package>
         <Package>python-pyblock</Package>
@@ -1514,6 +1509,7 @@
         <Package>qt5-x11extras</Package>
         <Package>qt5-xmlpatterns</Package>
         <Package>qtermwidget5</Package>
+        <Package>re2</Package>
         <Package>readline</Package>
         <Package>reiserfsprogs</Package>
         <Package>rsyslog</Package>
@@ -1523,7 +1519,6 @@
         <Package>schroedinger</Package>
         <Package>sed</Package>
         <Package>shadow</Package>
-        <Package>slang</Package>
         <Package>snappy</Package>
         <Package>soundtouch</Package>
         <Package>speex</Package>
@@ -1536,7 +1531,6 @@
         <Package>sysvinit</Package>
         <Package>sysvinit-tools</Package>
         <Package>tar</Package>
-        <Package>tcl</Package>
         <Package>tcp-wrappers</Package>
         <Package>texinfo</Package>
         <Package>tiff</Package>
@@ -1556,7 +1550,6 @@
         <Package>webp</Package>
         <Package>which</Package>
         <Package>wireless-tools</Package>
-        <Package>wpa_supplicant</Package>
         <Package>x264</Package>
         <Package>x265</Package>
         <Package>xcb-util</Package>
@@ -1582,6 +1575,7 @@
         <Package>xorg-input-void</Package>
         <Package>xorg-input-wacom</Package>
         <Package>xorg-server</Package>
+        <Package>xorg-server-common</Package>
         <Package>xorg-video-amdgpu</Package>
         <Package>xorg-video-apm</Package>
         <Package>xorg-video-cirrus</Package>
