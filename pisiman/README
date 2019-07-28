@@ -6,4 +6,4 @@ Requirements
  - cdrkit
  - syslinux
  - squashfs-tools
- - pyqtermwidget (Required for GUI)
+ - pyqtermwidget5 (Required for GUI)
