@@ -2,8 +2,8 @@
 FROM ertugerata/pisi-chroot-farm
 LABEL maintainer Ertuğrul Erata <ertugrulerata@gmail.com>
 
-RUN service dbus start &&  pisi it --ignore-safety python-qt5 pyqtermwidget5 syslinux cdrkit squasfstools && service dbus stop
+COPY . /tmp/iso-work
 
+RUN service dbus start &&  pisi it --ignore-safety python-qt5 pyqtermwidget5 syslinux cdrkit squasfs-tools && service dbus stop
 
-
-WORKDIR /root
+WORKDIR /tmp/iso-work
